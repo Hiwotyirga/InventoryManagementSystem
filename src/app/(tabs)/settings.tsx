@@ -18,8 +18,8 @@ export default function SettingsScreen() {
           text: "Logout", 
           style: "destructive",
           onPress: () => {
-            setUser(null); // Clear global user state
-            router.replace('/(auth)/signin'); // Redirect to Login
+            setUser(null); 
+            router.replace('/signIn'); 
           }
         }
       ]
